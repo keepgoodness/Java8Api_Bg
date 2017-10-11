@@ -406,8 +406,8 @@
  Конкурентни източници на потоци са тези, чийто <code>Spliterator</code> отчита 
  характеристиката <code>CONCURRENT</code>.
 
- <p>Accordingly, behavioral parameters in stream pipelines whose source might
- not be concurrent should never modify the stream's data source.
+ <p>Съответно поведенческите параметри в поточните конвейери, чийто източник може да не е конкурентен,
+ никога не трябва да променят източника на данни за потока.
  A behavioral parameter is said to <em>interfere</em> with a non-concurrent
  data source if it modifies, or causes to be
  modified, the stream's data source.  The need for non-interference applies
